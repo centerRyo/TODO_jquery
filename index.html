@@ -14,7 +14,7 @@
       <div class="form">
         <div class="inputArea">
           <input class="inputText js-get-val" type="text" placeholder="このカードにタイトルを入力...">
-          <span class="error js-get-error">入力してください</span>
+          <span class="error js-toggle-error">入力してください</span>
         </div>
         <button class="btn js-add-task">カードを追加</button>
       </div>
@@ -26,16 +26,16 @@
 
       <div class="todoArea">
         <ul class="list js-todo-list">
-          <li class="list__item">
+          <li class="list__item js-todo-list_item">
             <i class="far fa-circle icon-check" aria-hidden="true"></i>
             <span>ウェブカツ法務部L1〜3</span>
-            <input type="text" class="editText">
+            <input type="text" class="editText js-todo_list-editForm">
             <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
           </li>
-          <li class="list__item list__item--done">
+          <li class="list__item list__item--done js-todo-list_item">
             <i class="far fa-check-circle icon-check" aria-hidden="true"></i>
             <span>プロテインを買う</span>
-            <input type="text" class="editText">
+            <input type="text" class="editText js-todo_list-editForm">
             <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
           </li>
         </ul>
