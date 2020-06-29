@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Trello風Todoアプリ</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/931c61dabd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="mainTitle">T◯◯llo風 Todoアプリ</h1>
+      <p class="subTitle">〜 jQuery version 〜</p>
+
+      <div class="form">
+        <div class="inputArea">
+          <input class="inputText js-get-val" type="text" placeholder="このカードにタイトルを入力...">
+          <span class="error js-get-error">入力してください</span>
+        </div>
+        <button class="btn js-add-task">カードを追加</button>
+      </div>
+
+      <div class="searchBox">
+        <i class="fas fa-search searchBox__icon" aria-hidden="true"></i>
+        <input type="text" class="searchBox__input js-search">
+      </div>
+
+      <div class="todoArea">
+        <ul class="list js-todo-list">
+          <li class="list__item">
+            <i class="far fa-circle icon-check" aria-hidden="true"></i>
+            <span>ウェブカツ法務部L1〜3</span>
+            <input type="text" class="editText">
+            <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
+          </li>
+          <li class="list__item list__item--done">
+            <i class="far fa-check-circle icon-check" aria-hidden="true"></i>
+            <span>プロテインを買う</span>
+            <input type="text" class="editText">
+            <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
