@@ -26,17 +26,17 @@
 
       <div class="todoArea">
         <ul class="list js-todo-list">
-          <li class="list__item js-todo-list_item">
-            <i class="far fa-circle icon-check" aria-hidden="true"></i>
-            <span>ウェブカツ法務部L1〜3</span>
+          <li class="list__item js-todo-list_item" data-text="ウェブカツ法務部L1〜3">
+            <i class="far fa-circle icon-check js-click-done" aria-hidden="true"></i>
+            <span class="js-todo_list-text">ウェブカツ法務部L1〜3</span>
             <input type="text" class="editText js-todo_list-editForm">
-            <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
+            <i class="fas fa-trash-alt icon-trash js-click-remove" aria-hidden="true"></i>
           </li>
-          <li class="list__item list__item--done js-todo-list_item">
-            <i class="far fa-check-circle icon-check" aria-hidden="true"></i>
-            <span>プロテインを買う</span>
+          <li class="list__item list__item--done js-todo-list_item" data-text="プロテインを買う">
+            <i class="far fa-check-circle icon-check js-click-todo" aria-hidden="true"></i>
+            <span class="js-todo_list-text">プロテインを買う</span>
             <input type="text" class="editText js-todo_list-editForm">
-            <i class="fas fa-trash-alt icon-trash" aria-hidden="true"></i>
+            <i class="fas fa-trash-alt icon-trash js-click-remove" aria-hidden="true"></i>
           </li>
         </ul>
       </div>
