@@ -5,4 +5,4 @@ TODOアプリをjqueryで作成しました
 [Vue ver.](https://github.com/centerRyo/Todo_Vue)
 
 ## 完成したものは以下のような動きとなります
-https://user-images.githubusercontent.com/42470564/95088645-2e4c3a80-075e-11eb-8394-b82947b3149c.gif
+![todo_jquery](https://user-images.githubusercontent.com/42470564/95159474-1960bd00-07d9-11eb-8bc8-6316e000df03.gif)
